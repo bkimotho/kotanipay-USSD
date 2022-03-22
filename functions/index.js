@@ -74,7 +74,7 @@ app.post("/", async (req, res) => {
 
     if (text == '') {
         // This is the first request. Note how we start the response with CON
-        response = `CON Welcome to Kotanipay.
+        response = `CON Welcome to Kotani Pay.
             ..Powered by @Celo blockchain..
         Select: 
         1. Send Money 
@@ -82,7 +82,7 @@ app.post("/", async (req, res) => {
         3. Withdraw Cash 
         4. Buy Airtime    
         5. Loans and Savings
-        6. PayBill or Buy Goods
+        6. Pay Bill or Buy Goods
         7. My Account`;
     }     
     
